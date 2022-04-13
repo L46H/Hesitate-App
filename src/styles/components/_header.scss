@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Karantina:wght@300;400&family=Mate+SC&family=Monoton&family=Roboto:wght@300&family=Spline+Sans&display=swap');
+
+
+.header {
+  background: $dark-gray;
+  color: #00ccff;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+}
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+  font-family: 'Mate SC', serif;
+  font-weight: 500;
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
+}
